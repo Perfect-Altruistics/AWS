@@ -1,0 +1,29 @@
+SOFTWARE DEVELOPER:
+FULL STACK WEB DEVELOPER
+    I: front-end developer:
+        skills and language: html, css, JavaScript, Responsive Design (Bootstrap, CSS Grid), CSS Preprocessors (Sass, Less)
+        frameworks: React.js
+    
+    II: Back-end developer:
+        skills and language: JavaScript, python, RESTful API Design, Authentication and Authorization, 
+        frameworks: Django Framework
+
+    III: Database:
+        skills and language: SQL, NoSQL Databases (e.g., MongoDB), Database Design Principles
+        Relational Database Management systems: PostgreSQL, MySQL
+
+    IV: Version Control: Git and GitHub.
+    V:  Deployment Platforms: AWS, Azure and Heroku
+    VI: Conternarization and Orchestration: Docker and Kubernetes
+    VII: Mobile developer:
+        skills and language: Dart, Flutter
+        the app should be running on both Platforms (Android and iOS)
+
+    Additional Tools and Practices:
+
+        IDEs (Visual Studio Code, PyCharm)
+        Command Line Proficiency
+        Security Basics (HTTPS, secure coding)
+        Agile and Scrum Methodologies
+        Problem-Solving Skills
+        Effective Communication

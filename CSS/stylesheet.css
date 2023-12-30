@@ -1,0 +1,167 @@
+/* Reset default styles and set basic styles for the page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    top: 0;
+    text-align: center;
+}
+
+/* Styles for the registration form */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles inside the form */
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input and select styles inside the form */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button styles inside the form */
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+}
+
+/* Hover effect for the submit button */
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Styles for the image slider */
+.slider {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Footer styles */
+footer {
+    color: rgb(0, 0, 0);
+    background-color: rgb(184, 184, 184);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media query for responsive design */
+@media only screen and (max-width: 768px) {
+    /* Adjust navigation styles for smaller screens */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Display dropdown items as a list */
+    .dropdown {
+        display: flex;
+    }
+
+    /* Display navigation items as a list with underline */
+    nav a:not(.dropdown) {
+        display: list-item;
+        text-decoration: underline;
+    }
+
+    /* Display the menu icon for smaller screens */
+    .menu-icon {
+        display: block;
+    }
+}
+
+/* Style for the carousel container */
+#imageSlider {
+    width: 50%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the carousel on the page */
+}
+
+/* Style for each slide/image */
+#imageSlider img {
+    margin-bottom: 34px;
+    height: 300px;
+    width: 100%; /* Make the image fill the container */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for navigation dots */
+.slick-dots {
+    margin-bottom: -1px;
+}
+
+/* Style for navigation arrows */
+.slick-prev, .slick-next {
+    margin: 2px;
+    font-size: 24px; /* Adjust the arrow size */
+    color: #b53333; /* Set arrow color */
+}
+
+/* Style for active navigation dot */
+.slick-dots li.slick-active button:before {
+    color: #000000; /* Set the color of the active dot */
+}
+
+   /* Style for the navigation bar */
+   nav {
+    background-color: #333; /* Set background color */
+    padding: 10px 0; /* Add padding to the top and bottom */
+}
+
+/* Style for the navigation menu */
+nav ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the menu items */
+}
+
+/* Style for the navigation links */
+nav ul li {
+    display: inline-block; /* Display menu items horizontally */
+    margin-right: 20px; /* Add space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set link color */
+    font-weight: bold; /* Set font weight */
+    font-size: 16px; /* Set font size */
+    transition: color 0.3s ease; /* Add transition for color change */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change color on hover */
+}

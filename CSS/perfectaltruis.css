@@ -1,0 +1,64 @@
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px; 
+}
+
+/* Add this CSS for the label inside input effect */
+form {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Style for the input container */
+.input-container {
+    position: relative;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+/* Style for labels inside input */
+label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #553c3c;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+/* Style for input fields */
+input, select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 49px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Style for input fields when focused */
+input:focus, select:focus {
+    border: 2px solid #007bff;
+}
+
+/* Move label to the top when input is focused */
+input:focus + label, select:focus + label {
+    top: -12px;
+    font-size: 16px;
+    color: #007bff;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Style for the image slider container */
+#imageSlider {
+    max-width: 600px;
+    margin: 20px auto;
+}
